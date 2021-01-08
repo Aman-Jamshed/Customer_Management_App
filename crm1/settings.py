@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'faj82sv$av^2p1-!3wc^1nm)myxcr6(+#+f&39$iph7+=!)&l('
+SECRET_KEY = '*************************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME' : 'demo_1',
-        'USER' : 'aman',
-        'PASSWORD' : '9897072871',
+        'USER' : '*****',
+        'PASSWORD' : '********',
         'HOST' : 'database-2.cduvpfj6qf20.us-east-2.rds.amazonaws.com',
         'POST' : '5432'
     }
@@ -167,16 +167,16 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'amanjamshed3@gmail.com'
-EMAIL_HOST_PASSWORD = 'iramaman6'
+EMAIL_HOST_USER = '********@gmail.com'
+EMAIL_HOST_PASSWORD = '********'
 
 django_heroku.settings(locals())
 #S3 BUCKETS CONFIG
 '''
-AWS_ACCESS_KEY_ID = 'AKIAV3Y5ECPMZLYOQSHW'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'aman-crm1-bucket'
-AWS_S3_SIGNATURE_VERSION = 's3v4'
+AWS_ACCESS_KEY_ID = '*************'
+AWS_SECRET_ACCESS_KEY = '****************'
+AWS_STORAGE_BUCKET_NAME = '****-crm1-bucket'
+AWS_S3_SIGNATURE_VERSION = '****'
 AWS_S3_REGION_NAME = 'us-east-2'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
